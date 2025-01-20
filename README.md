@@ -25,7 +25,7 @@ To run your jupyter notebook: `jupyter notebook` or `jupyter lab`
 In a separate command line prompt:
 
 ```
-docker run -it --rm -n some-redis -p 6379:6379 redis
+docker run -it --rm --name some-redis -p 6379:6379 redis
 ```
 
 ### Run MongoDB
