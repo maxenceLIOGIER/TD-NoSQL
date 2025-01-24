@@ -15,7 +15,7 @@ Remember to use the `Anaconda Powershell` prompt at the root of your project.
 conda create -n nosql python=3.7
 conda activate nosql
 conda install -c anaconda mongo-tools
-pip install jupyter jupyterlab redis pymongo
+pip install jupyter jupyterlab redis pymongo pyorient
 ```
 
 To run your jupyter notebook: `jupyter notebook` or `jupyter lab`
